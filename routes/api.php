@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 $router->post('/register', 'AuthController@register');
-$router->post('/login', 'AuthController@register');
+$router->post('/login', 'AuthController@login');
 $router->group(['prefix' => 'task'], function () use ($router) {
     $router->get('/', 'TaskController@index');
     $router->post('/create', 'TaskController@store');

@@ -8,15 +8,20 @@
     set DB_USERNAME
     set DB_PASSWORD
 
-> $ composer install
+> composer install
 
-> $ php artisan key:generate
+> php artisan key:generate
 
-> $ php artisan passport:install
+> php artisan migrate
 
-> $ php artisan migrate
+> php artisan passport:install
 
-> $ php artisan optimize
-
-> $ php artisan serve
+> php artisan serve
 ```
+> Register API Endpoint: http://127.0.0.1:8000/api/register
+
+> Login API Endpoint: http://127.0.0.1:8000/api/login
+
+> Task List API Endpoint: http://127.0.0.1:8000/api/task
+
+> Task Create API Endpoint: http://127.0.0.1:8000/api/task/create
