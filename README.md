@@ -1,7 +1,7 @@
 ## Laravel Project Setup Guidelines
-Create a .env file in the root of your project 
-Run This Command
+```bash
 > $ cp .env.example .env
+
 > $ php artisan key:generate
 
 > Update .env file :
@@ -10,3 +10,13 @@ Run This Command
     set DB_USERNAME
     set DB_PASSWORD
 
+> $ composer install
+
+> $ php artisan passport:install
+
+> $ php artisan migrate
+
+> $ php artisan optimize
+
+> $ php artisan serve
+```
