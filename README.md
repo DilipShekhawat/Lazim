@@ -2,14 +2,14 @@
 Create a .env file in the root of your project 
 Run This Command
 > $ cp .env.example .env
-add the following variables:-
-#DB_CONNECTION=mysql
-#DB_HOST=localhost
-#DB_PORT=3306
-#DB_DATABASE=XXXXX //Use dataBase Name
-#DB_USERNAME=root
-#DB_PASSWORD=
+> $ php artisan key:generate
 
+> Update .env file :
+    set DB_CONNECTION
+    set DB_DATABASE
+    set DB_USERNAME
+    set DB_PASSWORD
+    
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
